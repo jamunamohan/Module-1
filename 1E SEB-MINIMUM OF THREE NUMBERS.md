@@ -1,34 +1,31 @@
-# Experiment No: 1e – SEB-Minimum of Three Numbers
+
+## Experiment No: 1d – Conditional Statements- Checking Vowel or not
 
 ## AIM  
-To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
-
+To Write a Python program to check whether the given character is a vowel or not using if..else statement
 ## ALGORITHM  
 1. Begin the program.  
-2. Read the three numbers: `num1`, `num2`, and `num3` from the user.  
-3. Compare `num1`, `num2`, and `num3` to find the smallest number:  
-   - If `num1` is less than or equal to both `num2` and `num3`, then `num1` is the minimum.  
-   - Else, if `num2` is less than or equal to both `num1` and `num3`, then `num2` is the minimum.  
-   - Otherwise, `num3` is the minimum.  
-4. Print the minimum value along with the input numbers in the format:  
-   `"The minimum of num1, num2, num3 is min_num."`  
-5. Terminate the program.
+2. Take a character input from the user
+3. Convert the character to lowercase
+4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
+5. If it is a vowel, display "The given character is a vowel"
+6. Otherwise, display "The given character is NOT a vowel"
+4. Terminate the program.
 
 ## PROGRAM
 ```python
-a = float(input())
-b = float(input())
-c = float(input())
-if (a<b)and(a<c):
-print(f"The minimum of {a}, {b}, {c} is {a}")
-elif (b<c)and(b<a):
-print(f"The minimum of {a}, {b}, {c} is {b}")
+
+char = input("Enter a character: ")
+char_lower = char.lower()
+
+if char_lower in ['a', 'e', 'i', 'o', 'u']:
+    print("The given character is a vowel")
 else:
-print(f"The minimum of {a}, {b}, {c} is {c}")
+    print("The given character is NOT a vowel")
 ```
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/dcb77af9-b043-432d-b951-d1bc1ef1ad8a)
+![image](https://github.com/user-attachments/assets/22ba0c2e-16f0-4397-9a34-ab55d041a708)
 
 ## RESULT
-Thus,the given python program is implemented and the output is verified.
+Thus, the Python program for Printing User Type Based on Choice has been Implemented and executed successfully.
