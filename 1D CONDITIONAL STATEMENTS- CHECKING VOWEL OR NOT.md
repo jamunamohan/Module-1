@@ -1,3 +1,4 @@
+
 ## Experiment No: 1d – Conditional Statements- Checking Vowel or not
 
 ## AIM  
@@ -9,20 +10,22 @@ To Write a Python program to check whether the given character is a vowel or not
 4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
 5. If it is a vowel, display "The given character is a vowel"
 6. Otherwise, display "The given character is NOT a vowel"
-7. Terminate the program.
+4. Terminate the program.
 
 ## PROGRAM
 ```python
-k=input( )
 
-if (k=='a' or k=='A' or k=='e' or k=='E' or k=='i' or k=='I' or k=='o' or k=='O' or k=='U' or k=='u' ):
+char = input("Enter a character: ")
+char_lower = char.lower()
+
+if char_lower in ['a', 'e', 'i', 'o', 'u']:
     print("The given character is a vowel")
 else:
     print("The given character is NOT a vowel")
 ```
 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/5ae2d290-867c-43d5-93b6-8fa0e5f45bd2)
+![image](https://github.com/user-attachments/assets/22ba0c2e-16f0-4397-9a34-ab55d041a708)
 
 ## RESULT
-Thus, the program to check whether the given character is a vowel or not using if..else statement was implemented and executed successfully.
+Thus, the Python program for Printing User Type Based on Choice has been Implemented and executed successfully.
